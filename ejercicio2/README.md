@@ -5,16 +5,16 @@ Realice un programa que reciba por teclado una lista de elementos separados por 
 Por ejemplo:
 
 ```
-huevos, leche, harina, jamón, queso, salame
+huevos, leche, harina, jamon, queso, salame
 ```
 
 Y utilizando aritmética de punteros genere la siguiente salida:
 
 ```
-huevos, leche, harina, jamón, queso, salame
-leche, harina, jamón, queso, salame
-harina, jamón, queso, salame
-jamón, queso, salame
+huevos, leche, harina, jamon, queso, salame
+leche, harina, jamon, queso, salame
+harina, jamon, queso, salame
+jamon, queso, salame
 queso, salame
 salame
 ```
@@ -26,7 +26,7 @@ El archivo main.c contiene un esqueleto del programa principal, asegurese de que
 printf("\n#SALIDA#\n");
 ```
 
-La salida del programa coincida *exactamente* con la esperada con el lote de prueba.
+La salida del programa coincida **exactamente** con la esperada con el lote de prueba.
 
 ## Entrega
 Realice un fork del presente repositorio desde su cuenta de github, complete el código y envíe un pull request a este repositorio para ser corregido.

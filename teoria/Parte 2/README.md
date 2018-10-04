@@ -1,5 +1,5 @@
-#Punteros II - Aritmética de punteros
-##Consideraciones sintácticas
+# Punteros II - Aritmética de punteros
+## Consideraciones sintácticas
 A continuación vamos a hablar de algunas cuestiones sintácticas del lenguaje C y para ello es deseable que utilicemos la terminología apropiada.
 Por ese motivo, antes de empezar quiero aclarar el concepto de 'identificador'.
 
@@ -73,7 +73,7 @@ mi_funcion_con_vectores(p, 50);
 mi_funcion_con_punteros(p, 50);
 ```
 
-##Aritmética de punteros
+## Aritmética de punteros
 
 En C, puedo realizar operaciones matemáticas con las posiciones de memoria a las que apuntan los punteros.
 
