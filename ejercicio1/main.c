@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 		scanf("%d", enteros+i);
 	}
 
-	ordenar_enteros(enteros, cant_enteros);
+	ordenarEnteros(enteros, cant_enteros);
 
 	printf("\n#SALIDA#\n");
 	for(i=0 ; i < cant_enteros ; i++) {
