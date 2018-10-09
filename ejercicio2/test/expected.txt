@@ -1,0 +1,6 @@
+huevos, leche, harina, jamon, queso, salame
+leche, harina, jamon, queso, salame
+harina, jamon, queso, salame
+jamon, queso, salame
+queso, salame
+salame

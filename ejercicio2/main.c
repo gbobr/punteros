@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(int argc, char* argv[])
+{
+
+//ESCRIBA AQUI ARRIBA EL CÓDIGO DE ENTRADA SALIDA PARA OBTENER LOS DATOS SOLICITADOS EN EL ENUNCIADO
+
+	printf("\n#SALIDA#\n");
+	
+//A PARTIR DE ESTE PUNTO LA SALIDA DEL PROGRAMA DEBE COINCIDIR EXACTAMENTE CON EL LOTE DE PRUEBA
+
+	return 0;
+}
