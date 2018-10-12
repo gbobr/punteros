@@ -8,7 +8,7 @@
     char palabra[100];
     gets(palabra);
     pepon = palabra;
-    printf("\n#TE QUIERO DUKI#\n");
+    printf("\n#SALIDA#\n");
     printf("%s\n", pepon);
      for (pepon = palabra; *pepon != '\0'; pepon++)
         {
