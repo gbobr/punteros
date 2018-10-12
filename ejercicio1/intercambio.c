@@ -20,11 +20,10 @@ void ordenarEnteros(int vec[], int v){
             if (vec[i] > vec[i+1])
             {
                 intercambio(&vec[i],&vec[i+1]);
-                ordenado=0
+                ordenado=0;
             }
 
         }
     }
-    printf()
 
 }
