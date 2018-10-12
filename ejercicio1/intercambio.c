@@ -15,6 +15,7 @@ void ordenarEnteros(int viEnteros[], int iCantidad){
 		for(i = 0; i < iCantidad-1;i++){
 			if(viEnteros[i] < viEnteros[i+1]){
 				intercambio(&viEnteros[i], &viEnteros[i+1]);
+				k = 1;
 			}
 		}
 	}
