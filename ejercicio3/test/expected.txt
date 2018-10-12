@@ -1,0 +1,5 @@
+ID, Nombre, Puntaje
+3, Juan, 150
+1, Nevermore, 100
+0, Berserker, 97
+2, r4t0, 71
