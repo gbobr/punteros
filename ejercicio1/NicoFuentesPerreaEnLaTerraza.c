@@ -25,6 +25,6 @@ void ordenarEnteros(int vac[], int v){
 
         }
     }
-    printf()
+    
 
 }
