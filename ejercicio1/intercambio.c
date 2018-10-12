@@ -8,7 +8,7 @@ void intercambio(int* p1, int* p2){
 	*p2 = aux; 
 }
 
-void ordenarEneteros(int viEnteros, int iCantidad){
+void ordenarEnteros(int viEnteros[], int iCantidad){
 	int k = 1, i;
 	while(k){
 		k = 0;
