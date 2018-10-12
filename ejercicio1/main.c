@@ -2,24 +2,27 @@
 #include<stdlib.h>
 #include "intercambio.h"
 
+void intercambio(int* puno, int* pdos);
+void ordenarEnteros(int viEnteros[], int iCantidad);
+
 int main(int argc, char* argv[])
 {
 	int cant_enteros, i;
 	int *enteros;
-	
+
 	printf("Cuantos numeros va a ingresar?: ");
 	scanf("%d", &cant_enteros);
 
 	//Reservo memoria dinámica para un vector dinámico de enteros
 	enteros = malloc(sizeof(int)*cant_enteros);
-	
+
 	if(enteros == NULL) {
 		fprintf(stderr, "Error: Memoria insuficiente");
 		return -1;
 	}
 
 	for(i=0 ; i < cant_enteros ; i++) {
-		printf("\nIngrese el número (%d de %d): ", i+1, cant_enteros);	
+		printf("\nIngrese el número (%d de %d): ", i+1, cant_enteros);
 		scanf("%d", enteros+i);
 	}
 
