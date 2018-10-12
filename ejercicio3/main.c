@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
             }
         }
     }
-    printf("Id, Nombre, Puntos");
+    printf("ID, Nombre, Puntaje\n");
     for(i = 0;i < MAX_PLAYERS; i++){
         printf("%d, %s, %d\n", p[i]->id, p[i]->nombre, p[i]->puntaje);
     }
