@@ -4,12 +4,11 @@
 int main(int argc, char* argv[])
 {
     int k = 0;
-    int i;
     char *p, *p2, cadena[50];
 
     printf("Ingrese lista de elementos separados por coma: \n");
     gets(cadena);
-//ESCRIBA AQUI ARRIBA EL CÓDIGO DE ENTRADA SALIDA PARA OBTENER LOS DATOS SOLICITADOS EN EL ENUNCIADO
+//ESCRIBA AQUI ARRIBA EL Cï¿½DIGO DE ENTRADA SALIDA PARA OBTENER LOS DATOS SOLICITADOS EN EL ENUNCIADO
 
     printf("\n#SALIDA#\n");
 
@@ -36,9 +35,6 @@ int main(int argc, char* argv[])
              p2++;
              p = p2;
         }
-
-
     }
-        getch();
         return 0;
 }
