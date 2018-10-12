@@ -9,7 +9,7 @@ void intercambio(int* p, int* p2){
     *p2 = aux;
 }
 
-void ordenarEnteros(int vac[], int v){
+void ordenarEnteros(int vec[], int v){
     int i=0, aux=0, ordenado=0;
 
     while(!ordenado) {
