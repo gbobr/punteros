@@ -8,6 +8,7 @@ int main(int argc, char* argv[])
     char palabra[100];
     gets(palabra); /// leo palabra
     ///printf("%s", palabra);
+    printf("\n#SALIDA#\n");
     p = palabra;
     ///p = p+1;
     ///printf("%s\n", p);
