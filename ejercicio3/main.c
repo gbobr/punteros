@@ -11,8 +11,8 @@ struct jugador {
 struct jugador *indice[MAX_PLAYERS];
 int main(int argc, char* argv[])
 {
-	struct jugador jugadores[MAX_PLAYERS];	
-	int i, aux;
+	struct jugador jugadores[MAX_PLAYERS];
+	int i, aux,ordenado=0;
 
 	for(i=0; i < MAX_PLAYERS; i++)
 		{
@@ -23,26 +23,31 @@ int main(int argc, char* argv[])
 
 		jugadores[i].id=i;
 		}
-	
+
 	for(i=0;i<MAX_PLAYERS;i++)
 		{
 		 indice[i]=&jugadores[i];
-		}	
-	
-	for(i=0;i<MAX_PLAYERS;i++)
-	{
-		if(indice[i]->puntaje < indice[i+1]->puntaje)
+		}
+    while(ordenado==0)
+    {
+        ordenado = 1;
+        for(i=0;i<MAX_PLAYERS-1;i++)
+        {
+            if(indice[i]->puntaje < indice[i+1]->puntaje)
 			{
-			aux= indice[i];
-			indice[i+1] = indice[i];
+			aux = indice[i];
+			indice[i] = indice[i+1];
 			indice[i+1] = aux;
-			}}
+            ordenado=0;
+			}
+        }
+    }
 
 	printf("\n#SALIDA#\n");
-	printf("Id \t Nombre \t Puntaje");
+	printf("ID, Nombre, Puntaje\n");
 		for(i=0;i<MAX_PLAYERS;i++)
 	{
-		printf("%d \t %c \t %d",indice[i]->id,indice[i]->nombre,indice[i]->puntaje);
+		printf("%d, %s, %d\n",indice[i]->id,indice[i]->nombre,indice[i]->puntaje);
 	}
 //A PARTIR DE ESTE PUNTO LA SALIDA DEL PROGRAMA DEBE COINCIDIR EXACTAMENTE CON EL LOTE DE PRUEBA
 
