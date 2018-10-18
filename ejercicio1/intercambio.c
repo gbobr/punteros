@@ -9,7 +9,7 @@ void intercambio(int* C, int* D){
 
 }
 
-void ordenar_enteros(int viEnteros[], int iCantidad)
+void ordenarEnteros(int viEnteros[], int iCantidad)
 {
         int i, k = 1;
         int aux;
