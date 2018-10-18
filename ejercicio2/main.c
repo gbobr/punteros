@@ -1,14 +1,23 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main(int argc, char* argv[])
+ int main(int argc, char* argv[])
 {
-
-//ESCRIBA AQUI ARRIBA EL CÓDIGO DE ENTRADA SALIDA PARA OBTENER LOS DATOS SOLICITADOS EN EL ENUNCIADO
-
-	printf("\n#SALIDA#\n");
-	
-//A PARTIR DE ESTE PUNTO LA SALIDA DEL PROGRAMA DEBE COINCIDIR EXACTAMENTE CON EL LOTE DE PRUEBA
-
-	return 0;
+    char *puntero;
+    char *a;
+    char palabra[100];
+    gets(palabra);
+    puntero = palabra;
+    printf("\n#SALIDA#\n");
+    printf("%s\n", puntero);
+     for (puntero = palabra; *puntero != '\0'; puntero++)
+        {
+        if(*puntero == ',')
+        {
+            a = puntero;
+             a = puntero+2;
+            printf("%s\n", a);
+        }
+     }
+      return 0;
 }
