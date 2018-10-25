@@ -21,8 +21,6 @@ int main(int argc, char* argv[])
 
         for(p; *p != 0; p++)
         {
-            if(*(p-1) == ',' && *p == ' ')
-                p++;
             printf("%c",*p);
         }
         printf("\n");
@@ -32,7 +30,7 @@ int main(int argc, char* argv[])
             k=1;
         else
         {
-             p2++;
+             p2 +=2;
              p = p2;
         }
     }
