@@ -11,11 +11,10 @@ void intercambio(int* C, int* D){
 
 void ordenarEnteros(int viEnteros[], int iCantidad)
 {
-        int i, k = 1;
-        int aux;
+        int k = 1, i;
         while(k){
             k = 0;
-            for(i = 0; i < iCantidad; i++)
+            for(i = 0; i < iCantidad-1; i++)
             {
                 if(viEnteros[i] > viEnteros[i+1]){
                     intercambio(&viEnteros[i], &viEnteros[i+1]);
