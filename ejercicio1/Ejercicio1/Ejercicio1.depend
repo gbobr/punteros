@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1539862887 source:c:\users\lab 3\desktop\punteros-master\ejercicio1\intercambio.c
+	"intercambio.h"
+
+1539860498 c:\users\lab 3\desktop\punteros-master\ejercicio1\intercambio.h
+
+1539860498 source:c:\users\lab 3\desktop\punteros-master\ejercicio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"intercambio.h"
+
