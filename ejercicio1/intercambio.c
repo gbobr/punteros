@@ -9,11 +9,11 @@ void intercambio(int* pi1, int* pi2){
 }
 
 void ordenarEnteros(int viEnteros[], int iCantidad){
-    int aux, band=0;
+    int aux, band=0, i;
 
     while(!band){
         band=1;
-        for(int i=0;i<iCantidad;i++){
+        for(i=0;i<iCantidad;i++){
             if(viEnteros[i]>viEnteros[i+1]){
                 aux=viEnteros[i];
                 viEnteros[i]=viEnteros[i+1];
